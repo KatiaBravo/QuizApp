@@ -32,12 +32,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Basketball"
+            android:id="@+id/basketball_check_box"
             style="@style/A"/>
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tennis"
+            android:id="@+id/tennis_check_box"
             style="@style/A"/>
 
         <CheckBox
@@ -88,7 +90,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/names_field_edit_text"
-            android:hint="Name 2 people: (Hint they are both girls)(Follow this format(Alphabetized): Name, Name)"
+            android:hint="Name 2 people: (Follow this format(Alphabetized): namea and nameb)"
             android:textColorHint="@android:color/darker_gray"
             style="@style/A"/>
 
