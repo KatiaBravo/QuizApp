@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         if (editText.getText().toString().equalsIgnoreCase("Ayaka and Irina")) {
             overallScore++;
         } else {
-            overallScore += 1;
+            Toast.makeText(this, "Q3 is incorrect", Toast.LENGTH_SHORT).show();
         }
     }
 
