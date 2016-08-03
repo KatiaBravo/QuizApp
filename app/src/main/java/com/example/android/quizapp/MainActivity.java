@@ -68,7 +68,12 @@ public class MainActivity extends AppCompatActivity {
         answerForQ3();
         answerForQ4();
         answerForQ5();
-        String toastMessage = "You got " + overallScore + "/5.0";
+        String toastMessage;
+        if (overallScore >= 3){
+            toastMessage = "Congrats! You got" + overallScore + "/5.0";
+        } else {
+            toastMessage = "Not bad but you can be better" + overallScore + "/5.0";
+        }
         Toast.makeText(this, toastMessage, Toast.LENGTH_SHORT).show();
     }
 }
